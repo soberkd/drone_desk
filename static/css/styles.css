@@ -1,0 +1,154 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .fit-image {
+    background-image: url("your_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  section#hero {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section#hero h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  section#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  section#hero .btn {
+    display: inline-block;
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  section#services {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  section#services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+  }
+  
+  .service .btn {
+    display: inline-block;
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+
+  .auth-form input[type="text"],
+.auth-form input[type="password"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  width: 50%;
+  padding: 10px;
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #1565c0;
+}
+
+.auth-form button:active {
+  background-color: #0d47a1;
+}
+
+.auth-form button:focus {
+  outline: none;
+}
